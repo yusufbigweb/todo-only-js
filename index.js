@@ -28,6 +28,7 @@ btnCreateTasks.addEventListener('click', function () {
     const removeBtn = document.createElement('button');
     rowCon.appendChild(removeBtn)
     removeBtn.appendChild(iconX)
+    
 
     removeBtn.addEventListener('click', function () {
         rowCon.remove()
